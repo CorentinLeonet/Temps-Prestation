@@ -7,8 +7,8 @@
 	
 	class DAO
 	{
-		private $host = 'localhost:33020';
-		private $dbname = 'web2023';
+		private $host = 'localhost:33006';
+		private $dbname = 'tempPrestation';
 		private $username = 'root';
 		private $password = 'password';
 		
