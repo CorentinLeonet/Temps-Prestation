@@ -1,0 +1,30 @@
+/* police Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.contentPane {
+  min-height: 85vh;
+  max-width: 80%;
+}
+
+@media screen and (max-width: 767px) {
+  .contentPane {
+   	min-height: 30vh;
+	max-width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 979px){
+  .contentPane {
+   	min-height: 50vh;
+	max-width: 100%;
+  }
+}
+
+nav ul li.active {
+  box-shadow: 0px 2px 2px grey;
+  border-radius: 10px;
+}
